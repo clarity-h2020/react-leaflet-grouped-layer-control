@@ -81,7 +81,7 @@ export default class RLGroupedLayerControlRC extends React.Component {
             newOverlays = overlays.map((overlay, index) => {
                 if ((`${overlay.groupTitle}-${this.id}`) === `${event.target.name}`) {
                     return {
-                        checked: overlay.checked & (overlay.name === id),
+                        checked: !overlay.checked & (overlay.name === id),
                         groupTitle: overlay.groupTitle,
                         name: overlay.name,
                         title: overlay.title
