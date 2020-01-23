@@ -1,6 +1,6 @@
 {
   "name": "react-leaflet-grouped-layer-control",
-  "version": "0.0.13",
+  "version": "0.1.0",
   "description": "leaflet-groupedlayercontrol kind of functionality for react-leaflet",
   "scripts": {
     "build": "rimraf dist && webpack",
@@ -21,12 +21,12 @@
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tumerorkun/react-leaflet-grouped-layer-control.git"
+    "url": "https://github.com/clarity-h2020/react-leaflet-grouped-layer-control.git"
   },
   "bugs": {
-    "url": "https://github.com/tumerorkun/react-leaflet-grouped-layer-control/issues"
+    "url": "https://github.com/clarity-h2020/react-leaflet-grouped-layer-control/issues"
   },
-  "homepage": "https://github.com/tumerorkun/react-leaflet-grouped-layer-control#readme",
+  "homepage": "https://github.com/clarity-h2020/react-leaflet-grouped-layer-control#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
